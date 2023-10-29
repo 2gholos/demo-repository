@@ -1,15 +1,23 @@
+body{
+    margin: 0;
+    background-image: url(./image/IMG_20231029_194030_924.PNG);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+
+}
+
 .pashmak {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: pink;
+    background-color: transparent;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     animation-name: pashmak;
     animation-duration: 30s;
-
 
 }
 
@@ -33,7 +41,7 @@
     }
 
     20% {
-        transform: translate(300px,100px)rotate(550deg);
+        transform: translate(300px,100px);
     }
 
     25%{
@@ -44,7 +52,7 @@
 
     30%{
 
-        transform: translate(500px,200px)rotate(550deg);
+        transform: translate(500px,200px);
 
     }
 
@@ -55,7 +63,7 @@
     }
 
     40%{
-        transform: translate(700px,350px)rotate(550deg);
+        transform: translate(700px,350px);
 
     }
 
@@ -66,7 +74,7 @@
     }
 
     50%{
-        transform: translate(900px,500px)rotate(550deg);
+        transform: translate(900px,500px);
 
     }
 
@@ -92,16 +100,16 @@ p {
 
 }
 
-.wall {
+/* .wall {
     width: 130px;
     padding: 20px;
     background-color: orange;
     position:absolute;
     top:88px;
 
-}
+} */
 
-.footer {
+/* .footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -110,4 +118,4 @@ p {
     background-color: green;
     color: white;
     text-align: center;
-}
+} */
